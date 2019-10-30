@@ -19,7 +19,7 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header class = 'sticky'>
+    <header>
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
@@ -257,16 +257,9 @@
                     <div class="project-info">
                         <h3>Choices</h3>
                         <p>
-                          Developed at CalHacks 2019, Choices is an Android and iOS app which recommends menu items
-                          for the user to try at a restaurant based on a calulcated inference of their taste pallete and
-                          popular items for the restaurant gathered from Yelp and Google Reviews.
+                          Developed at CalHacks 2019, Choices is an Android and iOS app which recommends menu items for the user to try at a restaurant based on a calulcated inference of their taste pallete and popular items for the restaurant gathered from Yelp and Google Reviews.
                           <br /><br />
-                          As the project manager, I distributed roles to the rest of my team members and made sure the project was coming
-                          along cohesively. I was also responsible for developing the front-end of the app in React Native and gathering the necessary user data
-                          to the recommendation algorithm and the menu scanning algorithm in Python. I used a simple web scraper to gather the Yelp review data and
-                          used the Google Cloud Platform to gather Google Reviews data from the user's location. Then I used Google NLP's Sentiment Analysis API to
-                          gather if the user liked the item or not. Lastly, I handled the publishing of the Flask server to a Google App Engine instance primarily to improve
-                          the well-known shortcomings of the development Flask server.
+                          As the project manager, I distributed roles to the rest of my team members and made sure the project was coming along cohesively. I was also responsible for developing the front-end of the app in React Native and gathering the necessary user data to the recommendation algorithm and the menu scanning algorithm in Python. I used a simple web scraper to gather the Yelp review data and used the Google Cloud Platform to gather Google Reviews data from the user's location. Then I used Google NLP's Sentiment Analysis API to gather if the user liked the item or not. Lastly, I handled the publishing of the Flask server to a Google App Engine instance primarily to improve the well-known shortcomings of the development Flask server.
                         </p>
                         <a href="https://github.com/AkshatJain1/Choices" target = "_blank">View Project</a>
                     </div>
@@ -276,20 +269,122 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project-cash.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Close Cash</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                          Winning the "Best Financial Hack" at HackRice9, CloseCash is a MERN (MongoDB, Express, React, Node.JS) web application optimized for mobile platforms allowing a user hat need close cash to match with tellers that are ranked in a list based on location and amount of cash on hand. The application consists of a receiver and teller interface, your most recent transaction, and a ranked search for the closest teller.
+                          <br><br>
+                          I worked on the back-end and data integration. Working with the APIs and the MongoDB database was tough especially since it was my first time with this stack, but I got it done and learned a lot. I utilized Capital One's API to create and use customer ids to make transactions in the application. Additionally, I implemented the Google Maps API to find a user's location for a searching and ranking algorithm. Lastly, we made heavy use of Passport.js, Sessions, Cookies, and Axios to secure user data and communicate between multiple servers.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/LucasRollo/HackRice9">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width = "300px" height = "330px" src="images/project-cscomp.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>UIL Computer Science Competition Website</h3>
+                        <p>
+                          In this project, which I did for my Computer Science UIL region in high school, I built a local web tool to handle local computer science contests. The tool we previously had was hard to set up,  judge with, and count points and I was approached by many other schools asking me to let them use my project in their contest.
+                          <br/><br/>
+                          To make the tool secure, I learned how to make prepared statements with PHP and MySQL so that the data couldn't be compromised and properly handle authentication.  In order to get the Java files that students submitted to compile securely, I had to learn how to take advantage of shell execute methods with PHP. In the future, I will be looking to revamp this whole project in Node.JS to take advantage of its vast open-source tooling and use a front-end framework in order to lessen styling headaches
+                        </p>
+                        <a href="https://github.com/AkshatJain1/cscomp">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width = "300px" height = "380px" src="images/project-flappy.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Flappy Bird 2.0</h3>
+                        <p>
+                          I used Java to create this really fun desktop GUI application in which a bird tries to fly through pipes. This is similar to the original game except I revamped this to an alien/space theme. There are two modes to this game: FreePlay and Campaign. In the FreePlay mode, the player is just trying to get a high score with a UFO shooting at him. The Campaign mode is similar except after you get past 20 pipes, the boss alien comes down and tries to kill you in shooter combat.
+                          <br /> <br />
+                          Creating the Boss and UFO AI was the hardest part of the project. By predicting user actions and responding appropriately, I was able to code a difficult AI which is hard to beat. Everything was custom drawn with JPanel so drawing the pipes and the characters was also a bit of a challenge.
+                          <br /><br />
+                          Please download it and play a game or two!
+                        </p>
+                        <a href="https://github.com/AkshatJain1/Flappy-Bird-2.0">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+
+                <a id="view-more-projects" href="#">View More Projects</a>
+                <div id="more-projects" class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width = "300px" height = "300px" src="images/project-java-course.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>BitsNBytes Tutorials</h3>
+                        <p>
+                          I created and deployed this website to attract more students to join BitsNBytes Tutorials, my business started up in high school. Since high school, I have retired BitsNBytes to focus on other endeavours, but this website was an intense project that fiercly developed my backend skills. <br /><br />Using PHP and MySQL, students were able to sign up for the course, submit their homework, have it autograded, check their grades, take quizzes and tests, view curriculum and even play a make-shift JavaScript Flappy Bird game!
+                        </p>
+                        <a href="https://github.com/AkshatJain1/Project-Now">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project no-image">
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Now</h3>
+                        <p>
+                          Project Now, a MERN (MongoDB, Express, React, Node.JS ) website, is in development...
+                          <br /><br />
+                          Project Now is an upcoming website that allows young student developers to find projects that they might
+                          like to do for practice. Someone posts a project with appropriate technical specifications and then student developers upvote the project submits their final solution. The project poster can either accept/deny the proposed solution and even comment on it to start a conversation. There would be some monetary reward correlated to the number of upvotes a post gets to incentivice people to post projects on the site.
+                        </p>
+                        <a href="https://github.com/AkshatJain1/Project-Now">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width = "300px" height = "400px" src="images/project-portfolio.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Portfolio</h3>
+                        <p>
+                          I developed this website you are seeing right now (Ha, infinite recursion) and published it on GitHub Pages in order to properly display all my experience and projects. Styling this website was the hardest part. I used SASS in order to make styling easier and JavaScript to provide some light funcionality such as Buttons, Navigation and Timelines.
+                        </p>
+                        <a href="https://github.com/AkshatJain1/AkshatJain1.github.io">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                  </div>
+                  <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width = "300px" height = "300px" src="images/project-dodger.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Dodger</h3>
+                        <p>
+                          I developed this classic Dodger game in Python just for fun! I added a bit of a twist to it and put in some special super powers. There's a reverse, a slow down, a bonus and even invulnerability. <br /><br />
+                          I learned how to use tKinter to draw the players and the boxes and utilized Python's simple object oriented concepts to develop game logic.
+                          <br /> <br />
+                          Please download the game and give it a try!
+                        </p>
+                        <a href="downloads/Dodger.py" download="dodger">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-            </div>
+              </div>
+          </div>
         </div>
     </div>
     <!-- End #projects -->
