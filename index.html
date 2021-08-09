@@ -103,20 +103,20 @@
                 </div> -->
                 <div class="col-md-8">
                     <p>
-                        Hi! My name is Akshat Jain and I am a Computer Science Major from the
+                        Hi! My name is Akshat Jain and I am a Computer Science Major with Honors from the
                         University of California, Berkeley, a FRC Team 5427 alum,
                         and an avid full-stack developer primarily specializing in JavaScript frameworks. As a global
                         thinker, I pride myself on being able to scale
                         ideas by providing efficient system designs and bringing beautiful designs to life.
                         <br><br>
-                        I love being involved in my campus community! Here are the commitments I'm currently involved
+                        I love being involved in my campus community! Here are the commitments I've been involved
                         in:
                     <ul>
                         <li>
                             <p>Research Assistant at eCal Labs</p>
                         </li>
                         <li>
-                            <p>President and Co-Founder at PlexTech</p>
+                            <p>Project Manager at PlexTech</p>
                         </li>
                         <li>
                             <p>Payments Committee Member at Fintech @ Berkeley</p>
@@ -125,10 +125,10 @@
                             <p>Full-Stack Developer at ASUC (Campus Government) Office of the CTO - Berkeley Mobile</p>
                         </li>
                         <li>
-                            <p>Student Instructor at Juni Learning</p>
+                            <p>Instructor at Juni Learning</p>
                         </li>
                         <li>
-                            <p>Member and Mentee at IEEE</p>
+                            <p>Member and Mentor at IEEE</p>
                         </li>
                     </ul>
                     </p>
@@ -142,23 +142,40 @@
         <h2 class="heading">Technical Experience</h2>
         <div id="experience-timeline">
 
+            <div data-date="Summer 2021">
+                <h3>Amazon</h3>
+                <h4>Software Development Intern</h4>
+                <ul style="list-style-type: square">
+                    <li>
+                        <p>Helped audit the illegal use of cookies against customer consent by developing an internal <b>React</b>
+                            application with a <b>Java REST API</b> (with test coverage in <b>JUnit/ Mockito</b>) deployed in <b>serverless architecture</b>.</p>
+                    </li>
+                    <li>
+                        <p>Automated the deployment of Cloud Infrastructure with the <b>AWS CDK</b> in <b>TypeScript</b> for frontend hosting,
+                            <b>RDS (MySQL)</b> configuration and <b>Lambda</b> integrations, thus reducing cloud management overhead.</p>
+                    </li>
+                    <li>
+                        <p>Resolved an issue of high <b>cold-start</b> times by setting up live <b>Auto-Scaling</b> for concurrency
+                            and optimizing for <b>multithreading and asynchronous performance</b> lowering average latency from 17s to 1s.</p>
+                    </li>
+                </ul>
+            </div>
+
             <div data-date="Fall 2020">
-                <h3>Thrive Education</h3>
+                <h3>Polygon</h3>
                 <h4>Software Engineering Intern</h4>
                 <ul style="list-style-type: square">
                     <li>
-                        <p>Worked with Google Calendar and Zoom <b>OAuth 2.0</b> in <b>Vue.js, FastAPI and SQL</b> to
-                            lead to an automated client appointment and scheduling feature, thus removing the previous
-                            manual workflow.</p>
+                        <p>Automated client appointment and scheduling by utilizing Google Calendar and Zoom APIs with
+                            <b>OAuth 2.0</b> to write a best-fit algorithm (linear time) in <b>Python</b> and implement it with <b>Vue.js and FastAPI</b>.</p>
                     </li>
                     <li>
-                        <p>Automated the tedious task of psychologists manually opening each experiment and
-                            test directions in an external dated platform, reducing number of clicks needed from an
-                            average of 25 down to 2.</p>
+                        <p>Automated the tedious task of psychologists opening a document set in an external dated
+                            platform in a <b>JavaScript Chrome Extension</b>, reducing number of clicks needed from an average of 25 down to 2.</p>
                     </li>
                     <li>
-                        <p>Redesigned the <b>FastAPI</b> backend to lead to greater documentation, scalability,and
-                            security by adding response/body models and role based access control to over 45 routes.</p>
+                        <p>Redesigned the <b>FastAPI</b> server to lead to greater documentation (<b>OpenAPI</b>
+                            Standard), scalability, and security (Pydantic) by adding response/body models and RBAC to over 45 routes.</p>
                     </li>
                 </ul>
             </div>
@@ -370,17 +387,19 @@
         <div class="education-block">
             <h3>University of California, Berkeley</h3>
             <span class="education-date">May 2022</span>
-            <h4>Computer Science Major<br />Entrepreneurship Certificate</h4>
+            <h4>Computer Science Major with Honors<br />Entrepreneurship Certificate</h4>
             <p>
             <ul>
-                <li>GPA: 3.8 / 4.0</li>
+                <li><b>GPA</b>: 3.9 / 4.0</li>
                 <li>EECS <a href="https://www2.eecs.berkeley.edu/Courses/EE16A/" target="_blank">16a</a>/<a
                         href="https://www2.eecs.berkeley.edu/Courses/EE16B/" target="_blank">16b</a>: Designing Devices
                     and Systems</li>
                 <li>CS <a href="https://www2.eecs.berkeley.edu/Courses/CS61A/" target="_blank">61a</a>/<a
                         href="https://www2.eecs.berkeley.edu/Courses/CS61B/" target="_blank">61b</a>/<a
-                        href="https://www2.eecs.berkeley.edu/Courses/CS70/" target="_blank">70</a>: Comp Programs,
-                    Algorithms, Discrete Math</li>
+                        href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">61c</a>: Computer Programs,
+                    Data Structures, Machine Structures</li>
+                <li>CS <a href="https://www2.eecs.berkeley.edu/Courses/CS70/" target="_blank">70</a>/<a 
+                    href="https://www2.eecs.berkeley.edu/Courses/CS170/" target="_blank">170</a>: Discrete Math, Algorithms</li>
                 <li>IndEng <a href="https://scet.berkeley.edu/newton-series/">95</a>/<a
                         href="https://classes.berkeley.edu/content/2020-spring-indeng-185-002-sem-002">185</a>: Newton
                     Lecture Series, Amazoogle </li>
@@ -761,7 +780,9 @@
             <li>AngularJS</li>
             <li>MySQL</li>
             <li>Java</li>
-            <li>C++</li>
+            <li>JUnit</li>
+            <li>Mockito</li>
+            <li>C/C++</li>
             <li>React Native</li>
             <li>Express.JS</li>
             <li>MongoDB</li>
@@ -769,6 +790,7 @@
             <li>PHP</li>
             <li>VB.NET</li>
             <br /><br /><br />
+            <li>AWS</li>
             <li>Git</li>
             <li>Jira (Agile)</li>
             <li>Android Studio</li>
@@ -834,7 +856,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2019 Akshat Jain
+                        Copyright &copy; 2021 Akshat Jain
                     </p>
                 </div>
                 <div class="col-sm-2 top">
